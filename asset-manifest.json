@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio2/static/css/main.bf335b71.css",
-    "main.js": "/portfolio2/static/js/main.827ceccf.js",
+    "main.css": "/portfolio2/static/css/main.e45c21e2.css",
+    "main.js": "/portfolio2/static/js/main.6f8b3f4b.js",
     "static/js/787.367bb3bd.chunk.js": "/portfolio2/static/js/787.367bb3bd.chunk.js",
     "static/media/graduation3.png": "/portfolio2/static/media/graduation3.92021b2dedbbf8f35a70.png",
+    "static/media/face-recognition-image2.PNG": "/portfolio2/static/media/face-recognition-image2.3cc0fc1c2756ce4f77b1.PNG",
+    "static/media/argame2.png": "/portfolio2/static/media/argame2.f38bc6679e50a026b2cf.png",
     "static/media/Poppins-Thin.ttf": "/portfolio2/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
     "static/media/Poppins-Light.ttf": "/portfolio2/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
     "static/media/Poppins-Regular.ttf": "/portfolio2/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
@@ -18,12 +20,12 @@
     "static/media/programming-skills.svg": "/portfolio2/static/media/programming-skills.d19983a9bee884277ffa4156796bcc0c.svg",
     "static/media/interests.svg": "/portfolio2/static/media/interests.809890a3e4fb0938f61bb8a6c34a6940.svg",
     "static/media/education.svg": "/portfolio2/static/media/education.10cfa28a40119ebd70cf4fb33fd5934e.svg",
-    "main.bf335b71.css.map": "/portfolio2/static/css/main.bf335b71.css.map",
-    "main.827ceccf.js.map": "/portfolio2/static/js/main.827ceccf.js.map",
+    "main.e45c21e2.css.map": "/portfolio2/static/css/main.e45c21e2.css.map",
+    "main.6f8b3f4b.js.map": "/portfolio2/static/js/main.6f8b3f4b.js.map",
     "787.367bb3bd.chunk.js.map": "/portfolio2/static/js/787.367bb3bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf335b71.css",
-    "static/js/main.827ceccf.js"
+    "static/css/main.e45c21e2.css",
+    "static/js/main.6f8b3f4b.js"
   ]
 }
