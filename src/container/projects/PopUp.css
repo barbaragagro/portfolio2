@@ -1,0 +1,147 @@
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.75);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.popup-inner{
+    position: relative;
+    padding: 32 px;    
+}
+
+.closebtn{
+    position:absolute;
+    top: 530px;
+    right: 70px;
+    font-size: large;
+}
+.imagec{
+    background-color: #c4c9e5;  
+ padding: 50px;
+    width: 1100px;
+    height: auto;
+   border-radius: 100px;
+}
+.imageAR{
+    background-color: #c4c9e5;  
+ padding: 30px;
+    width: 420px;
+    height: auto;
+   border-radius: 50px;
+}
+.closebtnAR{
+    position: absolute;
+ font-size: large;
+    top: 825px;
+    left: 130px;
+
+}
+
+@media screen and (max-width:1200px){
+    .imagec{
+        width: 1000px;
+        height: auto;
+        padding: 10px;
+        border-radius: 20px;
+
+    }
+    .closebtn{
+        top: 480px;
+        right: 35px;
+    }
+    .imageAR{
+        
+        width: 380px;
+    }
+    .closebtnAR{
+        top: 730px ;
+        left: 105px;
+    }
+    
+}
+
+@media screen and (max-width:992px){
+    .imagec{
+        width: 900px;
+        height: auto;
+        padding: 8px;
+        border-radius: 20px;
+
+    }
+    .closebtn{
+        top: 435px;
+        right: 25px;
+    }
+    
+}
+@media screen and (max-width:900px){
+    .imagec{
+        width: 800px;
+        height: auto;
+        padding: 8px;
+        border-radius: 20px;
+
+    }
+    .closebtn{
+        top: 375px;
+        right: 25px;
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    .imagec{
+        width: 600px;
+        height: auto;
+        padding: 8px;
+        border-radius: 20px;
+
+    }
+    .closebtn{
+        top: 285px;
+        right: 25px;
+    }
+    
+}
+@media screen and (max-width:610px){
+    .imagec{
+        width: 520px;
+        height: auto;
+        padding: 8px;
+        border-radius: 20px;
+
+    }
+    .closebtn{
+        top: 255px;
+        right: 0px;
+        font-size: 15px;
+        
+    }
+    
+}
+@media screen and (max-width:526px){
+    .imagec{
+        width: 350px;
+        height: auto;
+        padding: 8px;
+        border-radius: 20px;
+
+    }
+    .closebtn{
+        top: 180px;
+        right: 0px;
+        font-size: 15px;
+        
+    }
+    
+}
+
+
