@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio2/static/css/main.e45c21e2.css",
-    "main.js": "/portfolio2/static/js/main.6f8b3f4b.js",
+    "main.css": "/portfolio2/static/css/main.097d7698.css",
+    "main.js": "/portfolio2/static/js/main.e3e3faab.js",
     "static/js/787.367bb3bd.chunk.js": "/portfolio2/static/js/787.367bb3bd.chunk.js",
     "static/media/graduation3.png": "/portfolio2/static/media/graduation3.92021b2dedbbf8f35a70.png",
     "static/media/face-recognition-image2.PNG": "/portfolio2/static/media/face-recognition-image2.3cc0fc1c2756ce4f77b1.PNG",
@@ -17,15 +17,14 @@
     "static/media/mailz1.jpeg": "/portfolio2/static/media/mailz1.f81c3ea6ebf11108e57d.jpeg",
     "static/media/contact.png": "/portfolio2/static/media/contact.5982c0f014eba75febd0.png",
     "index.html": "/portfolio2/index.html",
-    "static/media/programming-skills.svg": "/portfolio2/static/media/programming-skills.d19983a9bee884277ffa4156796bcc0c.svg",
     "static/media/interests.svg": "/portfolio2/static/media/interests.809890a3e4fb0938f61bb8a6c34a6940.svg",
     "static/media/education.svg": "/portfolio2/static/media/education.10cfa28a40119ebd70cf4fb33fd5934e.svg",
-    "main.e45c21e2.css.map": "/portfolio2/static/css/main.e45c21e2.css.map",
-    "main.6f8b3f4b.js.map": "/portfolio2/static/js/main.6f8b3f4b.js.map",
+    "main.097d7698.css.map": "/portfolio2/static/css/main.097d7698.css.map",
+    "main.e3e3faab.js.map": "/portfolio2/static/js/main.e3e3faab.js.map",
     "787.367bb3bd.chunk.js.map": "/portfolio2/static/js/787.367bb3bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e45c21e2.css",
-    "static/js/main.6f8b3f4b.js"
+    "static/css/main.097d7698.css",
+    "static/js/main.e3e3faab.js"
   ]
 }
