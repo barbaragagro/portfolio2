@@ -124,7 +124,7 @@ body ::-webkit-scrollbar-thumb {
 }
 
 .red-border {
-  border: 1px solid var(--error-message) !important;
+  border: 1px solid #e44f4fd1 !important;
 }
 
 

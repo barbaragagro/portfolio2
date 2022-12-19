@@ -97,7 +97,7 @@
     }
     
     .selected-bullet {
-      color: var(--white);
+      color: white;
       width: 100%;
     }
     
@@ -143,7 +143,7 @@
     .resume-sub-heading {
       font-size: 14px;
       font-family: "Poppins SemiBold";
-      color: var(--black);
+      color: black;
       margin: 10px 0 0 0;
     }
     
@@ -317,7 +317,7 @@
   .resume-sub-heading {
     font-size: 12px;
     font-family: "Poppins SemiBold";
-    color: var(--black);
+    color: black;
     margin: 10px 0 0 0;
   }
   

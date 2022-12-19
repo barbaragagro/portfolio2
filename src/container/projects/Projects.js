@@ -78,7 +78,7 @@ export default function Projects(props) {
                     <div className='proj-heading-description'>Frontend website created with the help of React & AntDesign.</div>
                     <div className="paddingClass about-me-options">
                         <button className=" btn primary-btn">
-                        <a style={{color: 'white' , textDecoration: 'none'}} target="_blank"  rel="noreferrer"href='https://barbaragagro.github.io/barbaras-portfolio/'>{" "}
+                        <a style={{color: 'white' , textDecoration: 'none'}} target="_blank"  rel="noreferrer"href='https://barbaragagro.github.io/antdesign-website/'>{" "}
                         Visit Site{" "}</a>
                         </button>
                         <a href="https://github.com/barbaragagro/antdesign-website" >

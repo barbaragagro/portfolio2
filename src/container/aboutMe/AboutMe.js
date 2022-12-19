@@ -12,9 +12,10 @@ export default function AboutMe(props) {
           bullets: [
             "HTML/CSS",
             "JavaScript",
-            "React JS",
+            "TypeScript",
+            "React.js",
             "Node.js, Express.js",
-            "SQL Databases",
+            "PostgreSQL",
             "C# .NET",
             "Git/GitHub"
           ],

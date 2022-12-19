@@ -5,7 +5,7 @@ import "./Resume.css";
 import educationlogo from  "../../assets/Resume/education.svg";
 import contactlogo from "../../assets/Resume/contact.png";
 import interestslogo from "../../assets/Resume/interests.svg";
-import programming from "../../assets/Resume/programming-skills.svg";
+
 
 
 const Resume = (props) => {
@@ -42,37 +42,12 @@ const Resume = (props) => {
 
   const resumeBullets = [
     { label: "Education", logoSrc: educationlogo },
-    { label: "Projects", logoSrc: programming },
     { label: "Interests", logoSrc: interestslogo },
     { label: "Contact", logoSrc: contactlogo },
   ];
 
 
-  const projectsDetails = [
-    {
-      title: "Personal Portfolio Website",
-      //link: "" ,
-      description:
-        "A Personal Portfolio website to showcase all my details and projects at one place.",
-      subHeading: "Technologies Used: React JS, Bootstrap",
-    },
-    {
-      title: "Web app for face recognition in images",
-      link: "https://github.com/barbaragagro" ,
-      description:
-        "Web application that has it's own SQL database, where users can sign in or register as new user. Then paste any image link, software recognizes facial features and puts a smiley face over it. Also software remember how many photos user pasted in.",
-      subHeading:
-        "Technologies Used:  React Native, PostegreSQL, Express Js, Node Js.",
-    },
-    {
-      title: "Android AR video game",
-      link: "https://www.pluralsight.com/guides/understanding-links-in-reactjs" ,
-      description:
-        "Android AR video pet game",
-      subHeading:
-        "Technologies Used: C#, Unity.",
-    },
-  ];
+  
 
   const resumeDetails = [
     <div className="resume-screen-container" key="education">
@@ -96,20 +71,7 @@ const Resume = (props) => {
       />
     </div>,
 
-    <div className="project-class resume-screen-container" key="projects">
-      {projectsDetails.map((projectsDetails, index) => (
-        <div><ResumeHeading
-          key={index}
-          heading={projectsDetails.title}
-          subHeading={projectsDetails.subHeading}
-          description={projectsDetails.description}
-        />
-        <div className="resume-project-link">
-        <button><a style={{color: '#916268', fontWeight: "bold"}} target="_blank"  rel="noreferrer" href={projectsDetails.link? projectsDetails.link : ""}>click here to see the project</a></button>
-      </div></div>
-      ))}
-    </div>,
-
+   
  
     <div className="resume-screen-container" key="interests">
       <ResumeHeading
