@@ -135,6 +135,27 @@ export default function Projects(props) {
                     </div>
 
 
+{/* hangman APP */}
+
+
+
+<div className="projectClass project-between">
+                    <h3> <i className="bulletClass fa-solid fa-laptop-code"></i> {`HangMan App`} </h3>
+                    </div>
+                    <div className='proj-sub-heading'> Technologies Used: HTML, CSS, TypeScript, React JS, Vite.</div>
+                    <div className='proj-heading-description'>HangMan app made with Vite, TypeScript and React. App randomly picks a word from a json file, users has 6 tries to guess the word. Every time user fails to pick correct letter, part of HangMans body appers on the screen. If the word contains the letter user chose, letter becomes blue and appers in the right spot. If the word doesn't contain the letter, then letter becomes disabled, so the user can't make the same mistake twice. User can play with keyboard or pressing letters on the screen with the mouse.   </div>
+                    <div className="paddingClass about-me-options">
+                        <button className=" btn primary-btn">
+                        <a style={{color: 'white' , textDecoration: 'none'}} target="_blank"  rel="noreferrer"href='https://barbaragagro.github.io/hangman-app/'>{" "}
+                        Visit Site{" "}</a>
+                        </button>
+                        <a href="https://github.com/barbaragagro/hangman-app" >
+                        <button className='btn highlighted-btn'>
+                             See GitHub Repository
+                        </button>
+                        </a>
+                    </div>
+
 {/* REMINDER APP */}
 
 
