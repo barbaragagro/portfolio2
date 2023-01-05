@@ -11,12 +11,13 @@ export default function AboutMe(props) {
           highlights:{
           bullets: [
             "HTML/CSS",
+            "SASS, Tailwind",
             "JavaScript",
             "TypeScript",
             "React.js",
             "Node.js, Express.js",
             "PostgreSQL",
-            "C# .NET",
+            "C#",
             "Git/GitHub"
           ],
           heading: "Skills:",
