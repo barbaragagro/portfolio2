@@ -135,6 +135,31 @@ export default function Projects(props) {
                     </div>
 
 
+{/* income calculator APP */}
+
+
+
+<div className="projectClass project-between">
+                    <h3> <i className="bulletClass fa-solid fa-laptop-code"></i> {`Income Calculator App`} </h3>
+                    </div>
+                    <div className='proj-sub-heading'> Technologies Used: HTML, CSS, TailwindCSS, JavaScript, React JS, WebPack...</div>
+                    <div className='proj-heading-description'>Gross and Net calculator. Single page app created from scratch, project configured manually, without use of the create-react-app or similar commands.
+                    Frameworks used: ReactJS, TailwindCSS.
+                    Tooling used: Yarn, Babel, ESLint, Prettier.
+                    Project contains build scripts configured for WebPack and supports both DEV and PROD builds.
+ </div>
+                    <div className="paddingClass about-me-options">
+                        <button className=" btn primary-btn">
+                        <a style={{color: 'white' , textDecoration: 'none'}} target="_blank"  rel="noreferrer"href='https://barbaragagro.github.io/Income-calculator/public/'>{" "}
+                        Visit Site{" "}</a>
+                        </button>
+                        <a href="https://github.com/barbaragagro/Income-calculator" >
+                        <button className='btn highlighted-btn'>
+                             See GitHub Repository
+                        </button>
+                        </a>
+                    </div>
+
 {/* hangman APP */}
 
 
