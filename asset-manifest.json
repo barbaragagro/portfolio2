@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio2/static/css/main.097d7698.css",
-    "main.js": "/portfolio2/static/js/main.8b094210.js",
+    "main.js": "/portfolio2/static/js/main.e0f71aed.js",
     "static/js/787.367bb3bd.chunk.js": "/portfolio2/static/js/787.367bb3bd.chunk.js",
     "static/media/graduation3.png": "/portfolio2/static/media/graduation3.92021b2dedbbf8f35a70.png",
     "static/media/face-recognition-image2.PNG": "/portfolio2/static/media/face-recognition-image2.3cc0fc1c2756ce4f77b1.PNG",
@@ -20,11 +20,11 @@
     "static/media/interests.svg": "/portfolio2/static/media/interests.809890a3e4fb0938f61bb8a6c34a6940.svg",
     "static/media/education.svg": "/portfolio2/static/media/education.10cfa28a40119ebd70cf4fb33fd5934e.svg",
     "main.097d7698.css.map": "/portfolio2/static/css/main.097d7698.css.map",
-    "main.8b094210.js.map": "/portfolio2/static/js/main.8b094210.js.map",
+    "main.e0f71aed.js.map": "/portfolio2/static/js/main.e0f71aed.js.map",
     "787.367bb3bd.chunk.js.map": "/portfolio2/static/js/787.367bb3bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.097d7698.css",
-    "static/js/main.8b094210.js"
+    "static/js/main.e0f71aed.js"
   ]
 }
