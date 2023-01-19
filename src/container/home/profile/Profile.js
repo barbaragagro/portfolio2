@@ -39,7 +39,7 @@ export default function Profile() {
                         <h1>
                             {""}
                            
-                                React Developer 💻
+                                Web Developer 💻
                                 
                         </h1>
                         <span className='profile-role-tagline'>
