@@ -6,16 +6,15 @@ import "./AboutMe.css";
 export default function AboutMe(props) {
   const SCREEN_CONSTSANTS = {
     description:
-      "A 24-year-old from Novi Sad, Serbia. Got my masters degree in october 2022. and now I'm ready to start my developer career. I'm a passionate problem solver and a quick learner.",
+      "A 24-year-old from Novi Sad, Serbia. Got my masters degree in october 2022. and now I'm ready to start my developer career. I'm a responsible individual, but also a team player, passionate problem solver and a quick learner.",
     highlights: {
       bullets: [
         "HTML/CSS",
         "SASS, TailwindCSS",
         "JavaScript, TypeScript",
         "React.js",
+        "Redux",
         "Node.js, Express.js",
-        "PostgreSQL, MongoDB",
-        "C#",
         "Git/GitHub",
         "Figma",
         "Adobe AfterEffects, Photoshop, Illustrator",
