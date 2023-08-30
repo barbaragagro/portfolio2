@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import ScreenHeading from "../../utilities/screenHeading/ScreenHeading";
 import "./Projects.css";
 import PopUp from "./PopUp";
-import faceRecognitionImage2 from "./face-recognition-image2.PNG";
 import argameImage from "./argame2.png";
 import restaurantsImage from "./restaurantsApp.PNG";
 import cryptoImage from "./crypto.jpg";
@@ -10,7 +9,6 @@ import focusImage from "./focustime.png";
 import "./PopUp.css";
 
 export default function Projects(props) {
-  const [trigger, setTrigger] = useState(false);
   const [noScroll, setNoScroll] = useState(false);
   const [argameTrigger, setArgameTrigger] = useState(false);
   const [RestaurantsTrigger, setRestaurantsTrigger] = useState(false);
@@ -27,7 +25,7 @@ export default function Projects(props) {
       id={props.id || ""}
     >
       <div className="about-me-parent">
-        <ScreenHeading title={"Projects"} subHeading={"My work"} />
+        <ScreenHeading title={"Projects"} subHeading={"Some of my work"} />
         <div className="about-me-card">
           <div className="project-details">
             {/* PERSONAL WEBSITE */}
@@ -110,6 +108,113 @@ export default function Projects(props) {
               </PopUp>
             </div>
 
+
+            {/* RESTAURANT fe design*/}
+            <div className="projectClass project-between">
+              <h3>
+                {" "}
+                <i className="bulletClass fa-solid fa-laptop-code"></i>{" "}
+                {`AI WEBSITE DESIGN`}{" "}
+              </h3>
+            </div>
+            <div className="proj-sub-heading">
+              {" "}
+              Technologies Used: HTML, CSS, JavaScript, React JS.
+            </div>
+            <div className="proj-heading-description">
+              Frontend website created with the help of ReactJS.
+            </div>
+            <div className="paddingClass about-me-options">
+              <a
+                style={{ color: "white", textDecoration: "none" }}
+                target="_blank"
+                rel="noreferrer"
+                href="https://barbaragagro.github.io/ai-frontend-design/"
+              >
+                <button className=" btn primary-btn">
+                  {" "}
+                  Visit Site{" "}
+                </button>
+              </a>
+              <a href="https://github.com/barbaragagro/ai-frontend-design">
+                <button className="btn highlighted-btn">
+                  See GitHub Repository
+                </button>
+              </a>
+            </div>
+
+
+            {/*RESTAURANT WEBSITE DESIGN */}
+            <div className="projectClass project-between">
+              <h3>
+                {" "}
+                <i className="bulletClass fa-solid fa-laptop-code"></i>{" "}
+                {`RESTAURANT WEBSITE DESIGN`}{" "}
+              </h3>
+            </div>
+            <div className="proj-sub-heading">
+              {" "}
+              Technologies Used: HTML, CSS, JavaScript, React JS.
+            </div>
+            <div className="proj-heading-description">
+              Frontend website created with the help of ReactJS.
+            </div>
+            <div className="paddingClass about-me-options">
+              <a
+                style={{ color: "white", textDecoration: "none" }}
+                target="_blank"
+                rel="noreferrer"
+                href="https://barbaragagro.github.io/restaurant-frontend-design/"
+              >
+                <button className=" btn primary-btn">
+                  {" "}
+                  Visit Site{" "}
+                </button>
+              </a>
+              <a href="https://github.com/barbaragagro/restaurant-frontend-design">
+                <button className="btn highlighted-btn">
+                  See GitHub Repository
+                </button>
+              </a>
+            </div>
+
+
+            {/* business website design  */}
+            <div className="projectClass project-between">
+              <h3>
+                {" "}
+                <i className="bulletClass fa-solid fa-laptop-code"></i>{" "}
+                {`BUSINESS WEBSITE DESIGN`}{" "}
+              </h3>
+            </div>
+            <div className="proj-sub-heading">
+              {" "}
+              Technologies Used: HTML, CSS, JavaScript, React JS, TailwindCSS.
+            </div>
+            <div className="proj-heading-description">
+              Frontend website created with the help of React & TailwindCSS.
+            </div>
+            <div className="paddingClass about-me-options">
+              <a
+                style={{ color: "white", textDecoration: "none" }}
+                target="_blank"
+                rel="noreferrer"
+                href="https://barbaragagro.github.io/business-site-design/"
+              >
+                <button className=" btn primary-btn">
+                  {" "}
+                  Visit Site{" "}
+                </button>
+              </a>
+              <a href="https://github.com/barbaragagro/business-site-design">
+                <button className="btn highlighted-btn">
+                  See GitHub Repository
+                </button>
+              </a>
+            </div>
+
+
+
             {/* WEBSITE ANTDESIGN */}
             <div className="projectClass project-between">
               <h3>
@@ -126,17 +231,17 @@ export default function Projects(props) {
               Frontend website created with the help of React & AntDesign.
             </div>
             <div className="paddingClass about-me-options">
-              <button className=" btn primary-btn">
-                <a
-                  style={{ color: "white", textDecoration: "none" }}
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://barbaragagro.github.io/antdesign-website/"
-                >
+              <a
+                style={{ color: "white", textDecoration: "none" }}
+                target="_blank"
+                rel="noreferrer"
+                href="https://barbaragagro.github.io/antdesign-website/"
+              >
+                <button className=" btn primary-btn">
                   {" "}
                   Visit Site{" "}
-                </a>
-              </button>
+                </button>
+              </a>
               <a href="https://github.com/barbaragagro/antdesign-website">
                 <button className="btn highlighted-btn">
                   See GitHub Repository
@@ -240,9 +345,9 @@ export default function Projects(props) {
               </PopUp>
             </div>
 
-             {/* KANBAN BOARD*/}
+            {/* KANBAN BOARD*/}
 
-             <div className="projectClass project-between">
+            <div className="projectClass project-between">
               <h3>
                 {" "}
                 <i className="bulletClass fa-solid fa-laptop-code"></i>{" "}
@@ -256,17 +361,17 @@ export default function Projects(props) {
             <div className="proj-heading-description">
             </div>
             <div className="paddingClass about-me-options">
-              <button className=" btn primary-btn">
-                <a
-                  style={{ color: "white", textDecoration: "none" }}
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://barbaragagro.github.io/kanban-board/"
-                >
+              <a
+                style={{ color: "white", textDecoration: "none" }}
+                target="_blank"
+                rel="noreferrer"
+                href="https://barbaragagro.github.io/kanban-board/"
+              >
+                <button className=" btn primary-btn">
                   {" "}
                   Visit Site{" "}
-                </a>
-              </button>
+                </button>
+              </a>
               <a href="https://github.com/barbaragagro/kanban-board">
                 <button className="btn highlighted-btn">
                   See GitHub Repository
@@ -274,7 +379,7 @@ export default function Projects(props) {
               </a>
             </div>
 
-{/* focus time */}
+            {/* focus time */}
 
             <div className="projectClass project-between">
               <h3>
@@ -327,95 +432,6 @@ export default function Projects(props) {
             </div>
 
 
-            {/* FACE RECOGNITION */}
-            <div className="projectClass project-between">
-              <h3>
-                {" "}
-                <i className="bulletClass fa-solid fa-laptop-code"></i>{" "}
-                {`Web app for face recognition in images`}{" "}
-              </h3>
-            </div>
-            <div className="proj-sub-heading">
-              {" "}
-              Technologies Used: HTML, CSS, JavaScript, Bootstrap, React JS,
-              PostegreSQL, Express Js, Node Js etc.
-            </div>
-            <div className="proj-heading-description">
-              Web application that has it's own SQL database, where users can
-              sign in or register as new user. Then paste any image link,
-              software recognizes facial features and puts a smiley face over
-              it. Also software remember how many photos user pasted in.
-            </div>
-            <div className="paddingClass about-me-options">
-              <button
-                onClick={() => {
-                  setTrigger(true);
-                  setNoScroll(true);
-                }}
-                className=" btn primary-btn"
-              >
-                {" "}
-                See Picture of the Site{" "}
-              </button>
-              <a href="https://github.com/barbaragagro/face-recognition-app">
-                <button className="btn highlighted-btn">
-                  See GitHub Repository
-                </button>
-              </a>
-              <PopUp trigger={trigger} setTrigger={setTrigger}>
-                <img
-                  className="imagec"
-                  alt="face pic"
-                  src={faceRecognitionImage2}
-                ></img>
-
-                <button
-                  onClick={() => {
-                    setTrigger(false);
-                    setNoScroll(false);
-                  }}
-                  className="btn primary-btn closebtn"
-                >
-                  close
-                </button>
-              </PopUp>
-            </div>
-
-            {/* ROBOFRIENDS */}
-
-            <div className="projectClass project-between">
-              <h3>
-                {" "}
-                <i className="bulletClass fa-solid fa-laptop-code"></i>{" "}
-                {`Robofriends App`}{" "}
-              </h3>
-            </div>
-            <div className="proj-sub-heading">
-              {" "}
-              Technologies Used: HTML, CSS, JavaScript, React JS, Bootstrap etc.
-            </div>
-            <div className="proj-heading-description">
-              React app that includes Robohash API. App has a search box wher
-              user can search for any robot.
-            </div>
-            <div className="paddingClass about-me-options">
-              <button className=" btn primary-btn">
-                <a
-                  style={{ color: "white", textDecoration: "none" }}
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://barbaragagro.github.io/robofriends-app/"
-                >
-                  {" "}
-                  Visit Site{" "}
-                </a>
-              </button>
-              <a href="https://github.com/barbaragagro/robofriends-app">
-                <button className="btn highlighted-btn">
-                  See GitHub Repository
-                </button>
-              </a>
-            </div>
 
             {/* income calculator APP */}
 
@@ -440,17 +456,17 @@ export default function Projects(props) {
               PROD builds.
             </div>
             <div className="paddingClass about-me-options">
-              <button className=" btn primary-btn">
-                <a
-                  style={{ color: "white", textDecoration: "none" }}
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://barbaragagro.github.io/Income-calculator/public/"
-                >
+              <a
+                style={{ color: "white", textDecoration: "none" }}
+                target="_blank"
+                rel="noreferrer"
+                href="https://barbaragagro.github.io/Income-calculator/public/"
+              >
+                <button className=" btn primary-btn">
                   {" "}
                   Visit Site{" "}
-                </a>
-              </button>
+                </button>
+              </a>
               <a href="https://github.com/barbaragagro/Income-calculator">
                 <button className="btn highlighted-btn">
                   See GitHub Repository
@@ -483,18 +499,54 @@ export default function Projects(props) {
               mouse.{" "}
             </div>
             <div className="paddingClass about-me-options">
-              <button className=" btn primary-btn">
-                <a
-                  style={{ color: "white", textDecoration: "none" }}
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://barbaragagro.github.io/hangman-app/"
-                >
+              <a
+                style={{ color: "white", textDecoration: "none" }}
+                target="_blank"
+                rel="noreferrer"
+                href="https://barbaragagro.github.io/hangman-app/"
+              >
+                <button className=" btn primary-btn">
                   {" "}
                   Visit Site{" "}
-                </a>
-              </button>
+                </button>
+              </a>
               <a href="https://github.com/barbaragagro/hangman-app">
+                <button className="btn highlighted-btn">
+                  See GitHub Repository
+                </button>
+              </a>
+            </div>
+
+            {/* ROBOFRIENDS */}
+
+            <div className="projectClass project-between">
+              <h3>
+                {" "}
+                <i className="bulletClass fa-solid fa-laptop-code"></i>{" "}
+                {`Robofriends App`}{" "}
+              </h3>
+            </div>
+            <div className="proj-sub-heading">
+              {" "}
+              Technologies Used: HTML, CSS, JavaScript, React JS, Bootstrap etc.
+            </div>
+            <div className="proj-heading-description">
+              React app that includes Robohash API. App has a search box wher
+              user can search for any robot.
+            </div>
+            <div className="paddingClass about-me-options">
+              <a
+                style={{ color: "white", textDecoration: "none" }}
+                target="_blank"
+                rel="noreferrer"
+                href="https://barbaragagro.github.io/robofriends-app/"
+              >
+                <button className=" btn primary-btn">
+                  {" "}
+                  Visit Site{" "}
+                </button>
+              </a>
+              <a href="https://github.com/barbaragagro/robofriends-app">
                 <button className="btn highlighted-btn">
                   See GitHub Repository
                 </button>
@@ -522,17 +574,17 @@ export default function Projects(props) {
               button.
             </div>
             <div className="paddingClass about-me-options">
-              <button className=" btn primary-btn">
-                <a
-                  style={{ color: "white", textDecoration: "none" }}
-                  target="_blank"
-                  rel="noreferrer"
-                  href="barbaragagro.github.io/reminder-app/"
-                >
+              <a
+                style={{ color: "white", textDecoration: "none" }}
+                target="_blank"
+                rel="noreferrer"
+                href="https://barbaragagro.github.io/reminder-app/"
+              >
+                <button className=" btn primary-btn">
                   {" "}
                   Visit Site{" "}
-                </a>
-              </button>
+                </button>
+              </a>
               <a href="https://github.com/barbaragagro/reminder-app">
                 <button className="btn highlighted-btn">
                   See GitHub Repository
@@ -557,17 +609,17 @@ export default function Projects(props) {
               Countdown app made with react.js and bootstrap.
             </div>
             <div className="paddingClass about-me-options">
-              <button className=" btn primary-btn">
-                <a
-                  style={{ color: "white", textDecoration: "none" }}
-                  target="_blank"
-                  rel="noreferrer"
-                  href="barbaragagro.github.io/countdown.app/"
-                >
+              <a
+                style={{ color: "white", textDecoration: "none" }}
+                target="_blank"
+                rel="noreferrer"
+                href="https://barbaragagro.github.io/countdown.app/"
+              >
+                <button className=" btn primary-btn">
                   {" "}
                   Visit Site{" "}
-                </a>
-              </button>
+                </button>
+              </a>
               <a href="https://github.com/barbaragagro/countdown.app">
                 <button className="btn highlighted-btn">
                   See GitHub Repository
@@ -575,40 +627,7 @@ export default function Projects(props) {
               </a>
             </div>
 
-            {/* TYPESCRIPT */}
 
-            <div className="projectClass project-between">
-              <h3>
-                {" "}
-                <i className="bulletClass fa-solid fa-laptop-code"></i>{" "}
-                {`Typescript Project`}{" "}
-              </h3>
-            </div>
-            <div className="proj-sub-heading">
-              {" "}
-              Technologies Used: HTML, CSS, TypeScript, React JS, Bootstrap.
-            </div>
-            <div className="proj-heading-description">
-              Typescript and React app with Parallax scrolling effect.
-            </div>
-            <div className="paddingClass about-me-options">
-              <button className=" btn primary-btn">
-                <a
-                  style={{ color: "white", textDecoration: "none" }}
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://barbaragagro.github.io/typescript.practice/"
-                >
-                  {" "}
-                  Visit Site{" "}
-                </a>
-              </button>
-              <a href="https://github.com/barbaragagro/typescript.practice">
-                <button className="btn highlighted-btn">
-                  See GitHub Repository
-                </button>
-              </a>
-            </div>
           </div>
         </div>
       </div>
