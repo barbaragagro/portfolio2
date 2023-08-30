@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio2/static/css/main.075e2b1f.css",
-    "main.js": "/portfolio2/static/js/main.94a843bd.js",
+    "main.js": "/portfolio2/static/js/main.2212d84f.js",
     "static/js/787.367bb3bd.chunk.js": "/portfolio2/static/js/787.367bb3bd.chunk.js",
     "static/media/graduation3.png": "/portfolio2/static/media/graduation3.92021b2dedbbf8f35a70.png",
     "static/media/restaurantsApp.PNG": "/portfolio2/static/media/restaurantsApp.2368d6a2cf3d17cbc151.PNG",
-    "static/media/face-recognition-image2.PNG": "/portfolio2/static/media/face-recognition-image2.3cc0fc1c2756ce4f77b1.PNG",
     "static/media/argame2.png": "/portfolio2/static/media/argame2.f38bc6679e50a026b2cf.png",
     "static/media/focustime.png": "/portfolio2/static/media/focustime.7b769f9cc45e3ca83b60.png",
     "static/media/crypto.jpg": "/portfolio2/static/media/crypto.51eaee480d708e25965e.jpg",
@@ -23,11 +22,11 @@
     "static/media/interests.svg": "/portfolio2/static/media/interests.809890a3e4fb0938f61bb8a6c34a6940.svg",
     "static/media/education.svg": "/portfolio2/static/media/education.10cfa28a40119ebd70cf4fb33fd5934e.svg",
     "main.075e2b1f.css.map": "/portfolio2/static/css/main.075e2b1f.css.map",
-    "main.94a843bd.js.map": "/portfolio2/static/js/main.94a843bd.js.map",
+    "main.2212d84f.js.map": "/portfolio2/static/js/main.2212d84f.js.map",
     "787.367bb3bd.chunk.js.map": "/portfolio2/static/js/787.367bb3bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.075e2b1f.css",
-    "static/js/main.94a843bd.js"
+    "static/js/main.2212d84f.js"
   ]
 }
